@@ -1,0 +1,104 @@
+
+.header{
+  width: 90%;
+  margin :auto;
+  /* background-image: url(/public/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+   /* border:0.1rem solid orangered;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 30%;  */
+  }
+  .brand{
+    font-family: 'Dynalight', cursive;
+    width: 100px;
+  }
+  .name{
+    -webkit-text-stroke: 1px transparent;
+    color: transparent;
+    background-image: linear-gradient(#fff, #ff0052);
+    background-repeat: no-repeat;
+    background-clip : text;
+    background-position: -750px 0;
+   animation: backcolor 2s linear infinite alternate;
+   
+  }
+  @keyframes backcolor{
+    100%{
+      background-position: 0 0;
+    }
+  } 
+
+  .row{
+  justify-content: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  margin-left: 30px;
+  
+  }
+
+  .cv-btn{
+  background-color: #ff0052;
+  border: 1px solid #ff0052;
+  border-radius: 40%;
+  padding:10px 15px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  
+  }
+  .cv-btn:hover {
+    background-image: linear-gradient(#fff, #ff0052);
+} 
+a:hover{
+  font-size: 20px;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left:15%;
+ border: 2px solid #ff0052; 
+  }
+  
+  .link{
+    margin-left: 25px;
+    }
+    .row{
+      margin-bottom: 80px;
+    }
+    .img-animation{
+      animation: scale 2s 2s linear 1;
+    }
+    .text-animation{
+      animation: rotate 2s 6s linear 1 ;
+    }
+    @keyframes scale {
+      0%{
+        transform:scale(0);
+      }
+      100%{
+        transform:scale(120deg);
+      }
+    }
+    @keyframes rotate{
+      0%{
+        transform: rotateY(0deg);
+      }
+      100%{
+        transform: rotateY(360deg);
+      }
+    }
+    @media (max-width:600px) {
+      .hide{
+        display: none;
+      }
+      .image{
+        width: 250px;
+        height: 250px;
+      margin-top: 60px;
+        
+      }
+
+    }

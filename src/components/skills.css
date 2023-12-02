@@ -1,0 +1,136 @@
+/* .skills{
+    border:0.1rem solid orangered;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 30%;
+    width: 90%;
+    margin: 50px auto;
+    padding-bottom: 50px;
+} */
+.label{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    border: 1px solid #ff0052;
+    margin: 10px;
+    padding: 30px;
+     border-radius: 10%; 
+   
+}
+.bar-color{
+    background-color:#ff0052 ;
+}
+.html{
+    animation-name: html;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+.boot{
+    animation-name: boot;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+}
+.js{
+    animation-name: js;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+}
+.react{
+    animation-name: react;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+}
+.team-work{
+    animation-name: team-work;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+}
+.p-management{
+    animation-name: p-management;
+    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-iteration-count: 1;
+}
+.creativity{
+    animation-name: creativity;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+}
+.communication{
+    animation-name: communication;
+    animation-duration: 2s;
+    animation-delay: 9s;
+    animation-iteration-count: 1;
+}
+
+.skill-text{
+    text-align: center;
+    
+}
+.progress{
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+@keyframes html{
+0%{
+    width: 0%;
+}
+100%{
+    width: 90%;
+}
+}
+@keyframes boot{
+0%{
+    width: 0%;
+}
+100%{
+    width: 75%;
+}}
+@keyframes js{
+0%{
+    width: 0%;
+}
+100%{
+    width: 60%;
+}}
+@keyframes react{
+0%{
+    width: 0%;
+}
+100%{
+    width: 50%;
+}}
+@keyframes team-work{
+0%{
+    width: 0%;
+}
+100%{
+    width: 85%;
+}}
+@keyframes p-management{
+0%{
+    width: 0%;
+}
+100%{
+    width: 65%;
+}}
+@keyframes creativity{
+0%{
+    width: 0%;
+}
+100%{
+    width: 70%;
+}}  
+@keyframes communication{
+0%{
+    width: 0%;
+}
+100%{
+    width: 90%;
+}}  

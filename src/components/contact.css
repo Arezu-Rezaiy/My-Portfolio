@@ -1,0 +1,47 @@
+ /* .contact-body{
+    border:0.1rem solid orangered;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 30%;
+  width: 90%;
+  margin: auto;
+ } */
+.contact{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+    
+     #contact input{
+        display:block;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 90%;
+        border-radius: 20%;
+        border: 2px solid #ff0052;
+    }
+    #contact textarea{
+        display:block;
+        margin: auto;
+        margin-bottom: 20px;
+        width: 90%;
+        border-radius: 10%;
+        border: 2px solid #ff0052;
+        padding: 5px;
+    }
+    
+     #contact button{
+        width: 30%;
+        margin-top: 5%;
+        margin: auto;
+        border-radius: 20%;
+        border: 2px solid #ff0052;
+        background-color: #ff0052;
+    } 
+    button:hover{
+        background-image: linear-gradient(#fff, #ff0052);
+    }
+    #googleMap{
+        border-radius: 20px;
+        padding: 0px;
+        border: 2px solid #ff0052;
+    }

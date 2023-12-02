@@ -1,0 +1,189 @@
+    
+    span{
+        color: #ff0052;
+    } 
+        *{
+             /* color: white;  */
+            box-sizing: border-box;
+        }
+       body{
+/* background-color: rgb(63, 58, 58); */
+/* background: linear-gradient(to right, rgb(34, 31, 31),rgb(57, 197, 197)); */
+scroll-behavior: smooth;
+position: relative;
+
+       }
+       #light {
+        /* background-image: url(/public/background5.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;    */
+       background-color:rgb(226, 220, 220) ;
+       color: black;
+       }
+
+       #dark{
+        /* background: linear-gradient(to right, rgb(20, 18, 18),rgb(39, 122, 122)); */
+        /* background-image: url(/public/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover; */
+
+        /* background-image: url(/public/background3.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;
+     */
+       color: white;
+      background-color: rgb(27, 26, 26); 
+       }
+       .switch{
+        display: flex;
+        width: 100vw;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 2;
+        left:auto ;
+        right: auto;
+       }
+       .select-language{
+         display: flex;
+        width: 100vw;
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 2;
+        left:auto ;
+        right: auto;
+        bottom: 240px;
+       }
+       
+      
+
+
+
+
+   /* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(#180d27, #0c0219);
+    color: #e5d9f1;
+    min-height: 100vh;
+}
+
+#app {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 30rem;
+    text-align: center;
+    border-radius: 6px;
+    background: linear-gradient(#341a89, #3a1967);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    letter-spacing: 0.15rem;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    background: #8f05c6;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    color: #e5d9f1;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #a80ad1;
+} */ 
+
+
+/* 
+ {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(#180d27, #0c0219);
+    color: #e5d9f1;
+    min-height: 100vh;
+}
+
+#app {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 30rem;
+    text-align: center;
+    border-radius: 6px;
+    /* background: linear-gradient(#341a89, #3a1967); */
+    /* background-color: #002349; 
+    background-color: #c53678;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    letter-spacing: 0.15rem;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+#actions {
+    max-width: 24rem;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#actions button {
+    width: 7rem;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    padding: 0.5rem 0;
+    background: linear-gradient(#531a89, #4c1f8c);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    color: #e5d9f1;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#actions button:hover {
+    background: linear-gradient(#7e1a89, #7f1f8c);
+}
+
+#counter {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+} */
